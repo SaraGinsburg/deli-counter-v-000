@@ -7,6 +7,7 @@ def line(deli)
     deli.each_with_index do |person, idx|
       display << " #{idx + 1}. #{person}"
     end
-    "The line is currently:" + display.join('')
+    result = "The line is currently:" + display.join('')
   end
+  result
 end
