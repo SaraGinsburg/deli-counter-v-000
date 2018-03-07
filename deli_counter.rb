@@ -19,8 +19,9 @@ def take_a_number(deli, name)
 end
 
 def now_serving(deli)
-  deli.size == 0 ? puts "The line is empty" : puts "Currently serving #{deli.shift}."
-
-
-
+  if deli.size == 0 
+    puts "The line is empty" 
+  else
+    puts "Currently serving #{deli.shift}."
+  end
 end
