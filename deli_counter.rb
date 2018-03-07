@@ -1,6 +1,7 @@
-
+require "pry"
 def line(deli)
   if deli.size == 0
+    binding.pry
     puts "The line is currently empty."
   else
     display = []
