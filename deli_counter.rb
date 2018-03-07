@@ -10,4 +10,3 @@ def line(deli)
     "The line is currently:" + display.join('')
   end
 end
-
