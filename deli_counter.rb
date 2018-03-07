@@ -11,3 +11,5 @@ def line(deli)
   end
   puts result
 end
+
+line(["a", "b", "c"])
