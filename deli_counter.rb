@@ -12,4 +12,4 @@ def line(deli)
   puts result
 end
 
-line(["a", "b", "c"])
+
