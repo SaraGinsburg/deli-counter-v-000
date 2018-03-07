@@ -1,7 +1,7 @@
 deli = []
 
 def line(deli)
-  if deli.length = 0
+  if deli.count = 0
     puts "The line is currently empty."
   else
     display_line(deli)
