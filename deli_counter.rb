@@ -16,5 +16,11 @@ def take_a_number(deli, name)
   deli << name
   result = "Welcome, #{name}. You are number #{deli.index(name) + 1} in line."
   puts result
-  # result
+end
+
+def now_serving(deli)
+  deli.size == 0 ? puts "The line is empty" : puts "Currently serving #{deli.shift}."
+
+
+
 end
